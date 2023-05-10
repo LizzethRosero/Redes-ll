@@ -79,7 +79,7 @@ $ git config --global user.email johndoe@example.com
 |--|--:|
 |Número de Entradas en la tabla ARP |9|
 |IPv4 Gateway|192.168.1.1|
-|MAC Gateway|88-de-7c-6e-d4-b0
+|MAC Gateway|88-de-7c-6e-d4-b0|
 |ISP|Colombia Telecomunicaciones SA ESP|
 |[IP Publica][5]|161.18.61.184|
 |Sistema Autónomo|AS3816|
