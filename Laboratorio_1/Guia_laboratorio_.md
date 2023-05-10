@@ -61,15 +61,15 @@ $ git config --global user.email johndoe@example.com
 ## 4. [Caracterización de la red](#) ✔
 |Parámetro|Valor|
 |--|--:|
-|__Subnet__|192.168.254.0/24|
-|IPv4|192.168.254.104|
+|__Subnet__|192.168.1.0/24|
+|IPv4|192.168.1.10|
 |Subnet Mask decimal|24|
 |Subnet Mask octetos|255.255.255.0|
 |Número de direcciones de Host|254|
-|Rango de direcciones de Host|192.168.254.1-254|
-|IP Broadcast|192.168.254.255|
-|Server DHCP|192.168.254.254|
-|Server DNS|8.8.8.8|
+|Rango de direcciones de Host|192.168.1.1-254|
+|IP Broadcast|192.168.1.255|
+|Server DHCP| 192.168.1.1|
+|Server DNS|200.21.200.10|
 
 >Nota: Para obtener los parámetros de la red, usaremos el comando [ipconfig][10] o [ifconfig][8].
 
