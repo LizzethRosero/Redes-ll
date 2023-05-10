@@ -48,12 +48,12 @@ $ git config --global user.email johndoe@example.com
 ## 3. [Caracterización de los adaptadores](#) ✔
 |Parámetro||Valor|
 |--|:--:|--:|
-|Número de adaptadores Físicos|-->|3|
-|Número de adaptadores Virtuales|-->|7|
-|Tipo de Adaptador principal|-->|Wi-fi|
-|Fabricante del Adaptador principal|-->|Liteon Technology Corporation|
-|Código MAC del fabricante|-->|3C-A0-67|
-|MAC|-->|3C-A0-67-E8-D8-77|
+|Número de adaptadores Físicos|-->|1|
+|Número de adaptadores Virtuales|-->|0|
+|Tipo de Adaptador principal|-->|Ethernernet 802.3|
+|Fabricante del Adaptador principal|-->|Qualcomm Atheros Communications Inc.|
+|Código MAC del fabricante|-->|E0-CA-94|
+|MAC|-->|E0-CA-94-56-A7-48|
 
 >Nota: Para obtener los parámetros de la red, usaremos los comandos [ipconfig][10], [ifconfig][8], [getmac][9].
 
