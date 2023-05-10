@@ -77,12 +77,13 @@ $ git config --global user.email johndoe@example.com
 ## 5. [Caracterización de la puerta de enlace](#) ✔
 |Parámetro|Valor|
 |--|--:|
-|Número de Entradas en la tabla ARP |11|
-|IPv4 Gateway|192.168.254.254|
-|MAC Gateway|3C-A0-67-E8-D8-77|
-|ISP|Dobleclick Software E Ingeneria|
-|[IP Publica][5]|138.0.90.4|
-|Sistema Autónomo|AS264646|
+|Número de Entradas en la tabla ARP |9|
+|IPv4 Gateway|192.168.1.1|
+|MAC Gateway|88-de-7c-6e-d4-b0
+|
+|ISP|Colombia Telecomunicaciones SA ESP|
+|[IP Publica][5]|161.18.61.184|
+|Sistema Autónomo|AS3816|
 
 
 >Nota: Para obtener los parámetros de la red, usaremos el comando [arp][11] y algún servicio web/HTTP.
