@@ -65,12 +65,12 @@ $ git config --global user.email johndoe@example.com
 
 |10.10.10.0/24| |169.254.255.200/26|
 |--|:--:|--:|
-|clase: IP Privada|-->|Clase B|
-|Tipo: Clase A|-->|Tipo: Dirrección Reservadas para uso API|
-| |-->|Mascara: 255.255.255.192|
-||-->|Subred: 4|
-||-->|Host por subred : 62|
-||-->|Total de Host disponibles: 248 - dos ulimas reservadas de broadcast y red|
+|clase: IP Privada|--|Clase B|
+|Tipo: Clase A|--|Tipo: Dirrección Reservadas para uso API|
+| |--|Mascara: 255.255.255.192|
+||--|Subred: 4|
+||--|Host por subred : 62|
+||--|Total de Host disponibles: 248 - dos ulimas reservadas de broadcast y red|
 
 
 
