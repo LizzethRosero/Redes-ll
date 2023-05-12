@@ -91,12 +91,16 @@ $ git config --global user.email johndoe@example.com
 ## 6. [Retardo de la red](#) ✔
 |Servidor|IP|Tiempo promedio/ms|
 |--|--|--|
-|DNS Google|8.8.8.8||
-|DNS Cloudflare|1.1.1.1||
-|OpenDNS|||
-|Alternate DNS|||
-|DNS Quad9|||
-|AdGuard DNS|||
+|DNS Google|8.8.8.8|42ms||
+|DNS Cloudflare|1.1.1.1|72ms|
+|OpenDNS|208.67.222.222|103ms|
+|Alternate DNS|198.101.242.72|Tiem agotado|
+|DNS Quad9|9.9.9.9|47ms|
+|AdGuard DNS|94.140.14.14|99ms|
+|DNS Apple|17.253.144.10|168ms|
+|Verizon DNS|192.16.31.63|118ms|
+|IBM DNS|129.42.38.10|143ms|
+|Cisco DNS|72.163.4.161| 128ms|
 
 >Nota: Para calcular el retardo de la red, usaremos el protocolo ICMP/[ping][12] con al menos 10 paquetes.
 
