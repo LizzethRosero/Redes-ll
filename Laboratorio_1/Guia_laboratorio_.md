@@ -119,18 +119,18 @@ $ git config --global user.email johndoe@example.com
 ## 8. [Distancia desde el host](#) ✔
 |Servidor|Ping/ms|Numero de Saltos|
 |--|:--:|--:|
-|google.com|14|30|
-|GMail.com|15|9|
-|YouTube.com|14|10|
-|dns.google|15|9|
-|aws.amazon.com|154|17|
-|portal.azure.com|13|11|
-|login.live.com|88|22|
-|Facebook.com|120|11|
-|c.ns.WhatsApp.net|151|12|
-|claro.com.co|151|12|
-|platzi.com|122|11|
-|rappi.com.co|184|30|
+|google.com|18|7|
+|GMail.com|19|7|
+|YouTube.com|20|7|
+|dns.google|18|7|
+|aws.amazon.com|42|11|
+|portal.azure.com|94|20|
+|login.live.com|124|16|
+|Facebook.com|19|7|
+|c.ns.WhatsApp.net|98|13|
+|claro.com.co|159|30|
+|platzi.com|67|10|
+|rappi.com.co|241|30|
 
 >Nota: Para calcular el retardo de la red, usaremos el comando ICMP/[tracert][13].
 
