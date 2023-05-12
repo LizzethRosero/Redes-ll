@@ -109,7 +109,7 @@ $ git config --global user.email johndoe@example.com
 |Servidor|Ping/ms|Down/MB|Up/MB|
 |--|:--:|--:|--:|
 |[speed test][1]|50|1.13|42.96|
-|[Netflix][2]|14|78|67|
+|[Netflix][2]|37|40|150|
 |[Claro][3]|39|1.7|35.5|
 |[nperf][4]|44.20|7.4|28.30|
 
@@ -119,7 +119,7 @@ $ git config --global user.email johndoe@example.com
 ## 8. [Distancia desde el host](#) ✔
 |Servidor|Ping/ms|Numero de Saltos|
 |--|:--:|--:|
-|google.com|14|10|
+|google.com|14|30|
 |GMail.com|15|9|
 |YouTube.com|14|10|
 |dns.google|15|9|
