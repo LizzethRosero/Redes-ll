@@ -170,6 +170,9 @@ $ git config --global user.email johndoe@example.com
 - Incluya todos los detalles de la red de area local a la que se encuentra conectado.
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
+![Texto alternativo]()
+
+
 ## 10. [Preguntas de conocimiento](#) ✔
 1. Cual es la dirección de red y de broadcast de un host que tiene una ip 192.168.10.10/30.
 1. Cuantos equipos o.
