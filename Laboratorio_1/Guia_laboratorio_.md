@@ -38,17 +38,48 @@ $ git config --global user.email johndoe@example.com
 ## 2. [Preguntas de conocimiento](#) ✔
 
 <ol type="a">
-<li>¿Cual es la dirección de red y de broadcast de un host que tiene una ip 192.168.10.10/30 .?</li>
+<li>¿Cual es la dirección de red y de broadcast de un host que tiene mi IP?</li>
 <li>¿Cuantos clientes puede tener la sub red 172.16.0.0/22?.</li>
 <li>¿Que clase y tipo de dirección es 10.10.10.0/24?.</li>
 <li>¿Que información se puede inferir de la dirección 169.254.255.200/26?.</li>
 <li>¿Que información se puede inferir de la dirección 169.254.255.200/26?.</li>
 </ol>
 
+¿Cual es la dirección de red y de broadcast de un host que tiene mi IP?
+
+|Decimal||Binario|
+|--|:--:|--:|
+|192.168.1.10|-->|11000000.10101000.00000001.00001010|
+|255.255.255.0|-->|11111111.11111111.11111111.00000000|
+| |Direccion de Red||
+|192.168.1.0|-->|11000000.10101000.00000001.00000000|
+||Broadcast||
+|192.168.1.255|-->|11000000.10101000.00000001.11111111|
+
+¿Cuantos clientes puede tener la sub red 172.16.0.0/22?
+
+
+
+¿Que clase y tipo de dirección es 10.10.10.0/24?
+¿Que información se puede inferir de la dirección 169.254.255.200/26?
+
+|10.10.10.0/24| |169.254.255.200/26|
+|--|:--:|--:|
+|clase: IP Privada|-->|Clase B|
+|Tipo: Clase A|-->|Tipo: Dirrección Reservadas para uso API|
+| |-->|Mascara: 255.255.255.192|
+||-->|Subred: 4|
+||-->|Host por subred : 62|
+||-->|Total de Host disponibles: 248 - dos ulimas reservadas de broadcast y red|
+
+
+
+
+
 ## 3. [Caracterización de los adaptadores](#) ✔
 |Parámetro||Valor|
 |--|:--:|--:|
-|Número de adaptadores Físicos|-->|1|
+|Número de adaptadores Físicos|-->|4|
 |Número de adaptadores Virtuales|-->|0|
 |Tipo de Adaptador principal|-->|Ethernernet 802.3|
 |Fabricante del Adaptador principal|-->|Qualcomm Atheros Communications Inc.|
