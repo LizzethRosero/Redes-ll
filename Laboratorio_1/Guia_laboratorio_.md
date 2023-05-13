@@ -206,6 +206,22 @@ Rta/ El total de direcciones IP disponibles es 1022
 ||Broadcast||
 |192.168.10.11|-->|11000000.10101000.00001010.00001011|
 
+1.2 Cuantos equipos ip 192.168.10.10/30
+
+Formula:
+
+$$ 2^m-2 $$
+
+
+||Mascara||
+|--|:--:|--:|
+|255.255.255.252|-->|11111111.11111111.11111111.11111100|
+
+Aplicando:
+
+$$ 2^{2}-2=2 $$ 
+
+Rta/ El total de direcciones IP disponibles es 2, se dice que cuando una red es /30 es uan red muy pequeña y con su mascara 255.255.255.252 es una red conocida como enlace punto a punto
 
 
 [1]:https://www.speedtest.net/es
