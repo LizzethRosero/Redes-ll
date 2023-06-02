@@ -50,6 +50,7 @@ Ejemplo: Tenemos un punto de acceso inalámbrico (Access Point)PoE. Para relizar
 </ol>
 
 ![Imagen de etiquetas POE IN Y POE OUT](./poeout.png)
+
 Figura 2. Sowell, G. (s.f.). Etheric Diode: MAC-Based VLAN Assignment [Imagen]. Recuperado de https://gregsowell.com/?p=5835 
 
 <li>¿Que utilidad tiene la interfaz USB en los Enrutadores?.</li>
