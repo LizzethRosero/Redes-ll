@@ -36,9 +36,8 @@ Para todos los efectos:
 <li>¿Como se llama la interfaz donde se conecta los cables UTP
 Rta/ Conector RJ-45( Registered Jack-45) este conector tine ocho pines que se utilizan normalmente en redes Ethernet para conectar computadoras,enrutadores.
 
-![Texto alternativo]()</li>
-
-
+![Imagen RJ-45](./RJ-45_size.jpg)</li>
+Figura 1. Wikipedia. (2023, junio 2). RJ-45 [Imagen]. Wikimedia Commons. Recuperado de https://es.wikipedia.org/wiki/RJ-45#/media/Archivo:RJ-45_size.jpg
 
 <li>¿Que significa POE IN y POE OUT en una interfaz?.</li>
 Rta/Estos dos terminos sirven para permitir la trasmisión de energía eléctrica a través del cable de red Ethernet junto con los datos
@@ -49,6 +48,9 @@ Ejemplo: Tenemos una camara de seguridad PoE y esta conectada a un puerto llamad
 <li>POE OUT: Se refiere a una interfaz o puerto este tiene la capacidad de enviar energía a través de la tecnologia PoE, esto permite que los dispositivos compatibles con PoE conectados a este puerto puedan puedan recibir energia  a través del cable de rer Ethernet.
 Ejemplo: Tenemos un punto de acceso inalámbrico (Access Point)PoE. Para relizar la alimentacion a este punto de acceso lo conectamos a un puerto llamado POE OUT en el conmutador.</li>
 </ol>
+
+![Imagen de etiquetas POE IN Y POE OUT](./poeout.png)
+Figura 2. Sowell, G. (s.f.). Etheric Diode: MAC-Based VLAN Assignment [Imagen]. Recuperado de https://gregsowell.com/?p=5835 
 
 <li>¿Que utilidad tiene la interfaz USB en los Enrutadores?.</li>
 Las utilidades y funciones que tenemos son:
