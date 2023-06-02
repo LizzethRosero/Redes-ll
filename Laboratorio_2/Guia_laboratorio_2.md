@@ -37,7 +37,7 @@ Para todos los efectos:
 Rta/ Conector RJ-45( Registered Jack-45) este conector tine ocho pines que se utilizan normalmente en redes Ethernet para conectar computadoras,enrutadores.
 
 ![Imagen RJ-45](./RJ-45_size.jpg)</li>
-Figura 1. Wikipedia. (2023, junio 2). RJ-45 [Imagen]. Wikimedia Commons. Recuperado de https://es.wikipedia.org/wiki/RJ-45#/media/Archivo:RJ-45_size.jpg
+Figura 1. Wikipedia. (2023, junio 2). RJ-45 [Imagen]. Wikimedia Commons. link: https://es.wikipedia.org/wiki/RJ-45#/media/Archivo:RJ-45_size.jpg
 
 <li>¿Que significa POE IN y POE OUT en una interfaz?.</li>
 Rta/Estos dos terminos sirven para permitir la trasmisión de energía eléctrica a través del cable de red Ethernet junto con los datos
@@ -51,7 +51,7 @@ Ejemplo: Tenemos un punto de acceso inalámbrico (Access Point)PoE. Para relizar
 
 ![Imagen de etiquetas POE IN Y POE OUT](./poeout.png)
 
-Figura 2. Sowell, G. (s.f.). Etheric Diode: MAC-Based VLAN Assignment [Imagen]. Recuperado de https://gregsowell.com/?p=5835 
+Figura 2. Sowell, G. (s.f.). Etheric Diode: MAC-Based VLAN Assignment [Imagen]. Link: https://gregsowell.com/?p=5835 
 
 <li>¿Que utilidad tiene la interfaz USB en los Enrutadores?.</li>
 Las utilidades y funciones que tenemos son:
