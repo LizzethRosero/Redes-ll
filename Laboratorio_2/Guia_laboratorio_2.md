@@ -33,9 +33,33 @@ Para todos los efectos:
 ## 2. [Preguntas reflexivas de ambientación](#) ✔
 
 <ol type="a">
-<li>¿Como se llama la interfaz donde se conecta los cables UTP.?</li>
+<li>¿Como se llama la interfaz donde se conecta los cables UTP
+Rta/ Conector RJ-45( Registered Jack-45) este conector tine ocho pines que se utilizan normalmente en redes Ethernet para conectar computadoras,enrutadores.
+
+![Texto alternativo]()</li>
+
+
+
 <li>¿Que significa POE IN y POE OUT en una interfaz?.</li>
+Rta/Estos dos terminos sirven para permitir la trasmisión de energía eléctrica a través del cable de red Ethernet junto con los datos
+<ol type="a">
+<li>POE IN: Se refierie a una interfaz o puerto que tiene la capacidad para recibir energia a dispositivos compatibles con Poe conectados a ese puerto.
+Ejemplo: Tenemos una camara de seguridad PoE y esta conectada a un puerto llamada PoE IN en el conmutador este enviara datos y también suministrará en la camara a través del cable Ethernet.</li>
+
+<li>POE OUT: Se refiere a una interfaz o puerto este tiene la capacidad de enviar energía a través de la tecnologia PoE, esto permite que los dispositivos compatibles con PoE conectados a este puerto puedan puedan recibir energia  a través del cable de rer Ethernet.
+Ejemplo: Tenemos un punto de acceso inalámbrico (Access Point)PoE. Para relizar la alimentacion a este punto de acceso lo conectamos a un puerto llamado POE OUT en el conmutador.</li>
+</ol>
+
 <li>¿Que utilidad tiene la interfaz USB en los Enrutadores?.</li>
+Las utilidades y funciones que tenemos son:
+<ol type="1">
+<li>Compartir almacenamiento: Algunos Enrutadores tienen un puerto USB que se puede utilizar para conectar dispositivos de almacenamiento externo,como por ejemplo discos duros o almacenamientos de flash USB esto nos permite compartir archivos y recursos de la red local</li>
+<li>Impresión en red: Se pueden conectar a impresoras a traves de puerto USB y compartir fucionalidades en la red por ejemplo enviar trabajos de impresión a traves del enrutador y utilizar la impresora de manera centralizada.</li>
+<li>Modem USB: algunos enrutadores tienen modems USB lo que significa que se pueden conectar al modem a traves del puerto USB y utilizarlo para establecer una conexion a Internet</li>
+<li>Cargar dispositivos: algunos enrutadores pueden poseer un puerto USB que proporciona energia a dispositivos externos como por ejemplo los telefonos moviles, tablets.</li>
+
+</ol>
+
 <li>¿Que utilidad tiene la interfaz SFP en los Enrutadores?.</li>
 <li>¿Que tipos de interface Ethernet se pueden encontrar en los Enrutadores?.</li>
 </ol>
