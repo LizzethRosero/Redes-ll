@@ -81,7 +81,7 @@ Las interfaces permanentes en el dispositivo constan de interfaces Ethernet de a
 •	Descripción de interfaces Ethernet internas
 •	Interfaces transitorias: interfaces que se pueden insertar o quitar del dispositivo según las necesidades de configuración de red.
 •	Interfaces de red: interfaces que proporcionan principalmente conectividad de tráfico.
-•	Interfaces de servicios: interfaces que proporcionan capacidades específicas para manipular el tráfico antes de que se entregue a su destino......s
+•	Interfaces de servicios: interfaces que proporcionan capacidades específicas para manipular el tráfico antes de que se entregue a su destino,
 
 </li>
 </ol>
