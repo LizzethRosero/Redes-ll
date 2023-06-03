@@ -65,10 +65,25 @@ Las utilidades y funciones que tenemos son:
 
 <li>¿Que utilidad tiene la interfaz SFP en los Enrutadores?.
 
-ps para nada .... y assqui esta el cambiosss bjkhkhkh dadad ioioioiio </li>
+Un puerto SFP permite a los switches Gigabit conectarse a una amplia variedad de cables de fibra y Ethernet para poder ampliar la funcionalidad de conmutación en la red. Un puerto SFP puede admitir tanto módulos SFP RJ45 como módulos SFP de fibra.
+Además, el puerto SFP combo y el de enlace ascendente proporcionan a los usuarios la potencia y la flexibilidad necesarias para configurar los switches de acuerdo con sus aplicaciones singulares. En FS disponemos de una amplia gama de módulos SFP de cobre y fibra totalmente compatibles con los principales proveedores del mercado, lo que nos convierte en el proveedor preferido de componentes y soluciones de redes ópticas. Si deseas obtener más información
+ </li>
 
 
-<li>¿Que tipos de interface Ethernet se pueden encontrar en los Enrutadores?.</li>
+<li>¿Que tipos de interface Ethernet se pueden encontrar en los Enrutadores?.
+Definición de interfaces
+Las interfaces de un dispositivo proporcionan conectividad de red al dispositivo. En este tema, se analizan las diversas interfaces de dispositivo compatibles, Junos OS como interfaces transitorias, interfaces de servicios, interfaces de contenedor e interfaces Ethernet internas. En este tema también se proporciona información básica relacionada con la interfaz, como convenciones de nomenclatura de interfaz, descripción general de la encapsulación de interfaz y descripción general de los descriptores de interfaz.
+Tipos de interfaces
+Las interfaces pueden ser permanentes o transitorias, y se utilizan para redes o servicios:
+•	Interfaces permanentes: interfaces que siempre están presentes en el dispositivo.
+Las interfaces permanentes en el dispositivo constan de interfaces Ethernet de administración e interfaces Ethernet internas, las cuales se describen por separado en los siguientes temas:
+•	Descripción de las interfaces Ethernet de administración
+•	Descripción de interfaces Ethernet internas
+•	Interfaces transitorias: interfaces que se pueden insertar o quitar del dispositivo según las necesidades de configuración de red.
+•	Interfaces de red: interfaces que proporcionan principalmente conectividad de tráfico.
+•	Interfaces de servicios: interfaces que proporcionan capacidades específicas para manipular el tráfico antes de que se entregue a su destino......s
+
+</li>
 </ol>
 
 ## 3. [Caracterizar el CPE TP-LINK](#) ✔
