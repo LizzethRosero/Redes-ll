@@ -65,7 +65,7 @@ Las utilidades y funciones que tenemos son:
 
 <li>¿Que utilidad tiene la interfaz SFP en los Enrutadores?.
 
-ps para nada .... y assqui esta el cambiosss bjkhkhkh dadad sasasassssssseee </li>
+ps para nada .... y assqui esta el cambiosss bjkhkhkh dadad ioioioiio </li>
 
 
 <li>¿Que tipos de interface Ethernet se pueden encontrar en los Enrutadores?.</li>
