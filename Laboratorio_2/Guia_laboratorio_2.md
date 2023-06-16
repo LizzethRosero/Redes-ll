@@ -36,7 +36,7 @@ Para todos los efectos:
 <li>¿Como se llama la interfaz donde se conecta los cables UTP
 Rta/ Conector RJ-45( Registered Jack-45) este conector tine ocho pines que se utilizan normalmente en redes Ethernet para conectar computadoras,enrutadores.
 
-![Imagen RJ-45](./RJ-45_size.jpg)</li>
+![Imagen RJ-45](img/RJ-45_size.jpg)</li>
 Figura 1. Wikipedia. (2023, junio 2). RJ-45 [Imagen]. Wikimedia Commons. link: https://es.wikipedia.org/wiki/RJ-45#/media/Archivo:RJ-45_size.jpg
 
 <li>¿Que significa POE IN y POE OUT en una interfaz?.</li>
@@ -49,7 +49,7 @@ Ejemplo: Tenemos una camara de seguridad PoE y esta conectada a un puerto llamad
 Ejemplo: Tenemos un punto de acceso inalámbrico (Access Point)PoE. Para relizar la alimentacion a este punto de acceso lo conectamos a un puerto llamado POE OUT en el conmutador.</li>
 </ol>
 
-![Imagen de etiquetas POE IN Y POE OUT](./poeout.png)
+![Imagen de etiquetas POE IN Y POE OUT](img/poeout.png)
 
 Figura 2. Sowell, G. (s.f.). Etheric Diode: MAC-Based VLAN Assignment [Imagen]. Link: https://gregsowell.com/?p=5835 
 
@@ -144,17 +144,32 @@ Las utilidades y funciones que tenemos son:
 1. Conecte los equipos a la red eléctrica.
 1. [Reinicie][8_1] los dispositivos a la configuración de fabrica.
 1. Conecte los equipo mediante un patchcord (latiguillo) al equipo y a internet.
+![Imagen de etiquetas POE IN Y POE OUT](img/3.jpeg)
+
 1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
 1. Cambiar el nombre del dispositivo para identificarlo.
+![Imagen de etiquetas POE IN Y POE OUT](img/5.PNG)
 1. Cambiar la contraseña del usuario "admin" a "Redes_2".
+![Imagen de etiquetas POE IN Y POE OUT](img/6.PNG)
 1. Configurar las [interfaces][8_3] y el [bridge][8_4] (conmutador) para dos redes (Interna y externa).
+![Imagen de etiquetas POE IN Y POE OUT](img/7.1.PNG)
+![Imagen de etiquetas POE IN Y POE OUT](img/7.2.PNG)
+![Imagen de etiquetas POE IN Y POE OUT](img/7.3.PNG)
+
 1. Agregar la [dirección][8_5] de la interfaz externa en el segmento necesario para acceder a internet.
 1. Agregar la [dirección][8_5] del bridge (interna) con una IP privada, clase A.
+![Imagen de etiquetas POE IN Y POE OUT](img/9.PNG)
 1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre [GG](#parámetros).100-[GG](#parámetros).200.
+![Imagen de etiquetas POE IN Y POE OUT](img/10.PNG)
 1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
+![Imagen de etiquetas POE IN Y POE OUT](img/11.PNG)
 1. Configurar la [WLAN][wlan] de nombre y [PSK](psk) "REDES_4[G](#parámetros)" para lograr conectividad inalámbrica.
+![Imagen de etiquetas POE IN Y POE OUT](img/12.PNG)
 1. Realizar pruebas de diagnostico [PING][8_7] y [TRACEROUTE][4_4] desde el router.
+![Imagen de etiquetas POE IN Y POE OUT](img/13.PNG)
 1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via UTP.
+![Imagen de etiquetas POE IN Y POE OUT](img/14.1.jpeg)
+![Imagen de etiquetas POE IN Y POE OUT](img/14.2.jpeg)
 1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via WIFI.
 1. Realizar un backup de la configuración del equipo.
 
