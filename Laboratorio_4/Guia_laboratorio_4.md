@@ -3,6 +3,7 @@
 <p>Creado por <code>GncDev</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
 # Practica de laboratorio 04 - Enrutamiento Dinámico RIP
+# Estudiantes: Daniel Libardo Zambrano López- Lizzeth Carolina Rosero Trejo
 
 ## Objetivos 
 

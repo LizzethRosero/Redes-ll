@@ -3,6 +3,7 @@
 <p>Creado por <code>GncDev</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
 # Practica de laboratorio 03 - Enrutamiento estático
+# Estudiantes: Daniel Libardo Zambrano López- Lizzeth Carolina Rosero Trejo
 
 ## Objetivos 
 
@@ -67,6 +68,10 @@ Para todos los efectos:
 1. Conecte la ultima interfaz [RJ45][rj45] del router al PC de configuración.
 1. [Acceder][3_2] al dispositivo por el puerto 8291 via Winbox.
 1. Cambiar el nombre del dispositivo para [identificarlo][3_3] como <code>R2</code>.
+
+    ![nombre router](img/nombre.PNG)</li>
+        Figura 1. 
+
 1. Etiquetar las [interfaces][3_4] a utilizar (2 WAN y una LAN).
 1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
 1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
