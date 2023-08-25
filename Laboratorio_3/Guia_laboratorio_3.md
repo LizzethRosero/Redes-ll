@@ -75,20 +75,43 @@ Para todos los efectos:
 1. Etiquetar las [interfaces][3_4] a utilizar (2 WAN y una LAN).
 1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
 1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
+
+    ![nombre router](img/7.1.PNG)</li>
+        Figura .
 1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
     1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R1 en el segmento IP 10.11.1.0/24.
     1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R3 en el segmento IP 10.22.1.0/24.
     1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
 1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-192.168.1.200.
+
+    ![nombre router](img/pool.PNG)</li>
+        Figura .
 1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
 1. Agregar la [ruta por defecto][5_4] 0.0.0.0/0.
 
 ## 6. [Configurar enrutamiento MikroTik-02](#) ✔
 1. Agregar las [rutas estáticas][8_1] necesarias para que los tres router conozcan la ruta a los otros dos.
-1. Realizar pruebas de diagnostico [PING][8_2] y [TRACEROUTE][8_3] desde el router a los otros router.
-1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
-1. Realizar un [backup][8_4] de la configuración del equipo.
 
+     ![nombre router](img/Punto6.PNG)</li>
+        Figura .
+1. Realizar pruebas de diagnostico [PING][8_2] y [TRACEROUTE][8_3] desde el router a los otros router.
+
+    ![nombre router](img/ping%20r1.PNG)</li>
+        Figura .
+
+     ![nombre router](img/pingr3.PNG)</li>
+        Figura .   
+    
+1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
+  ![nombre router](img/pingmaster.PNG)</li>
+        Figura .
+
+1. Realizar un [backup][8_4] de la configuración del equipo.
+  ![nombre router](img/back1.PNG)</li>
+        Figura .
+    
+    ![nombre router](img/back2.PNG)</li>
+        Figura .
 ## 7. [Configuración básica MikroTik-03](#) ✔
 1. Conecte los equipos a la red eléctrica.
 1. [Reinicie][3_1] los dispositivos a la configuración de fabrica.
