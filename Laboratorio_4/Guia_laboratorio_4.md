@@ -23,8 +23,11 @@ Para todos los efectos:
 
 ## 1. [Configurar el entorno de trabajo](#) ✔
 1. Cree si no existe el repositorio llamado <code>Redes-dos</code>.
+    ![Alt text](img/repo.PNG)
 1. Crear una carpeta en este repositorio llamado <code>Laboratorio-cuatro</code>.
+    ![Alt text](img/lab4.PNG)
 1. Invite a los compañeros de grupo como colaboradores en este repositorio.
+    ![Alt text](img/colab.PNG)
 1. Documente cada uno de los items a continuación con capturas de pantalla y código.
 
 >Nota: recuerde que los [parámetros](#parámetros) son validos en todo el laboratorio.

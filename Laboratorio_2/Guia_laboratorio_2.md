@@ -23,8 +23,11 @@ Para todos los efectos:
 
 ## 1. [Configurar el entorno de trabajo](#) ✔
 1. Cree si no existe el repositorio [__"REDES-2"__][1_2] en su cuenta de github.
+    ![Imagen de etiquetas POE IN Y POE OUT](img/repo.PNG)
 1. Agregue un archivo llamado [__"laboratorio_2.md"__][1_2] a este repositorio.
+    ![Imagen de etiquetas POE IN Y POE OUT](img/lap2.PNG)
 1. Invite a los compañeros de grupo como colaboradores en este repositorio.
+    ![Alt text](img/colab.PNG)
 1. Documente cada uno de los items a continuación con capturas de pantalla y código .
 
 >Nota: recuerde que los [parámetros](#parámetros) son validos en todo el laboratorio.
