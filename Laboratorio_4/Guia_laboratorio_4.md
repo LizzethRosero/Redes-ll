@@ -75,27 +75,40 @@ Para todos los efectos:
 1. Conecte la ultima interfaz [RJ45][rj45] del router al PC de configuración.
 1. [Acceder][3_2] al dispositivo por el puerto 8291 via Winbox.
 1. Cambiar el nombre del dispositivo para [identificarlo][3_3] como <code>R2</code>.
+    ![Alt text](img/nombre.PNG)
+
 1. Etiquetar las [interfaces][3_4] a utilizar (2 WAN y una LAN).
 1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
 1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
+    ![Alt text](img/14.PNG)
 1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
     1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R1 en el segmento IP 10.11.1.0/24.
     1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R3 en el segmento IP 10.22.1.0/24.
     1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.22.1 privada, clase C.
 1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.22.100-192.168.22.200.
+    ![Alt text](img/pool.PNG)
 1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN.
+    ![Alt text](img/DHCP.PNG)
 1. Convertir a [estático][5_4] el arrendamiento DHCP para la MAC del PC de configuración. 
 1. Cambiar la ip estática del pc de configuración a 192.168.22.10.
 1. Crear una regla [source NAT][5_5] en el cortafuegos para enmascarar la ip de origen.
+    ![Alt text](img/14.PNG)
 1. Agregar la [ruta por defecto][5_6] 0.0.0.0/0.
+    ![Alt text](img/15.PNG)
 
 ## 6. [Configurar enrutamiento MikroTik-02](#) ✔
 1. Agregar [Rip][8_1] a las interfaces conectadas a los router vecinos.
+    ![Alt text](img/RIP1.PNG)
+
+    ![Alt text](img/RIP2.PNG)
 1. Publicar las [redes][8_2] que las interfaces rip deben compartir para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
-1. Realizar pruebas de diagnostico [PING][8_3] y [TRACEROUTE][8_4] desde el router a los otros router.
+    ![Alt text](img/2.PNG)
+1. Realizar pruebas de diagnostico [PING][8_3] y [TRACEROUTE][8_4] desde el router a los otros router.   
 1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
 1. Realizar un [backup][8_5] de la configuración del equipo.
+    ![Alt text](img/back1.PNG)
 
+    ![Alt text](img/back1.PNG)
 ## 7. [Configuración básica MikroTik-03](#) ✔
 1. Conecte los equipos a la red eléctrica.
 1. [Reinicie][3_1] los dispositivos a la configuración de fabrica.
