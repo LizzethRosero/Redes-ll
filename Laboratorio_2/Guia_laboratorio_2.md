@@ -93,30 +93,43 @@ Las interfaces permanentes en el dispositivo constan de interfaces Ethernet de a
 ## 3. [Caracterizar el CPE TP-LINK](#) ✔
 |Parámetro||Valor|
 |--|:--:|--:|
-|Marca|-->||
-|Referencia|-->||
+|Marca|-->|tp-link|
+|Referencia|-->|TL-WR820N|
 |Velocidad de la CPU|-->||
 |Tamaño de la memoria RAM|-->||
-|Sistema Operativo|-->||
-|Tipo de WIFI|-->||
+|Sistema Operativo|-->|Windows o Linux|
+|Tipo de WIFI|-->|2,4 GHz: Admite Wi-Fi 802.11b/g/n.
+5 GHz: Admite Wi-Fi 802.11a/n/ac.|
 |Voltaje DC|-->||
 
 ## 4. [Configurar básica de CPE TP-LINK](#) ✔
 1. Conecte los equipos a la red eléctrica.
+   
 1. [Reiniciar][4_1] el dispositivo a la configuración de fabrica.
+     ![Imagen RJ-45](img/rece.jpeg)
 1. Conectar el equipo mediante un patchcord (latiguillo) al equipo y a internet.
+     ![Imagen RJ-45](img/conet.jpeg)
 1. [Acceder][4_2] al dispositivo via protocolo http desde el navegador web.
 1. Cambiar el nombre del dispositivo para identificarlo.
+     ![Imagen RJ-45](img/5tp.PNG)
 1. Configurar la direccionamiento WAN para lograr conectividad con la red externa.
 1. Configurar la direccionamiento LAN con una IP privada, clase C para lograr conectividad con la red interna.
+     ![Imagen RJ-45](img/7tp.PNG)
 1. Configurar el [DHCP][dhcp] para que asigne 20 direcciones IP entre [G](#parámetros).200-[G](#parámetros).220.
+     ![Imagen RJ-45](img/8tp.PNG)
 1. Configurar la [WLAN][wlan] de nombre y [PSK](psk) "REDES_4[G](#parámetros)" para lograr conectividad inalámbrica.
+     ![Imagen RJ-45](img/9tplik.PNG)
 1. Realizar pruebas [PING][4_3] a DNS Cloudflare desde el dispositivo.
+     ![Imagen RJ-45](img/10tp.PNG)
 1. Realizar pruebas [PING][4_3] a DNS Cloudflare desde el computador conectado por UTP.
+     ![Imagen RJ-45](img/11tp.PNG)
 1. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde el router.
+     ![Imagen RJ-45](img/12tp.PNG)
 1. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde el Computador conectado por UTP.
+     ![Imagen RJ-45](img/13tp.PNG)
 1. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde un dispositivo conectado por WIFI.
 1. Habilitar la gestión remota del dispositivo desde cualquier IP.
+     ![Imagen RJ-45](img/15tp.PNG)
 1. Realizar un backup de la configuración del equipo.
 
 >Router: [TP-LINK][4_5] -> reiniciar: [Con el Router encendido dejamos presionado el botón reset durante 10 segundos hasta  LED SYS/PWR parpadee rápidamente][4_1] acceder: [conectar con la cadena admin:admin@tplinkwifi.net][4_2]
@@ -155,13 +168,13 @@ Las interfaces permanentes en el dispositivo constan de interfaces Ethernet de a
 ## 7. [Caracterizar el router MikroTik](#) ✔
 |Parámetro||Valor|
 |--|:--:|--:|
-|Marca|-->||
-|Referencia|-->||
-|Velocidad de la CPU|-->||
-|Tamaño de la memoria RAM|-->||
-|Sistema Operativo|-->||
+|Marca|-->|MikroTik|
+|Referencia|-->|RouterBOARD hEX RB750Gr3 |
+|Velocidad de la CPU|-->|doble núcleo a 880 MHz.|
+|Tamaño de la memoria RAM|-->|256 MB de RAM|
+|Sistema Operativo|-->|enrutador OS|
 |Tipo de WIFI|-->||
-|Voltaje DC|-->||
+|Voltaje DC|-->|12-57V,(Power over Ethernet)|
 
 ## 8. [Configurar básica de router MikroTik](#) ✔
 1. Conecte los equipos a la red eléctrica.

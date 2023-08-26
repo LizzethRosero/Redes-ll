@@ -36,6 +36,8 @@ Para todos los efectos:
 
 <ol type="a">
 <li>¿Que es y como se configura la ruta por defecto?</li>
+    La ruta por defecto se refiere a la dirección de red que un sistema operativo utiliza para enviar paquetes de datos a una ubicación fuera de su propia red local. Cuando un dispositivo, como una computadora, necesita enviar datos a una dirección IP que no está en su propia red local, utilice una puerta de enlace predeterminada o "ruta por defecto" para dirigir los paquetes hacia el enrutador que se encargará de dirigirlos hacia su Destino final.
+    CONFUGURACION:
 <li>¿Que es la distancia administrativa?.</li>
 <li>¿Que es una red directamente conectada y cual es su distancia administrativa?.</li>
 <li>¿Que es una ruta estática?.</li>
